@@ -24,15 +24,15 @@ console.log(manager.team);
 console.log(manager.company);
 console.log(manager.position);
 console.log(manager.species);
-console.log(manager.breathe();
+console.log(manager.breathe());
 
 manager.addTeamMember('Alice');
 manager.addTeamMember('Bob');
 console.log(manager.team);
 
 console.log(Object.getPrototypeOf(manager) == employee);
-console.log(Object.GetPrototypeof(employee) == person);
-console.log(Object.GetPrototypeof(person) == Object.prototype);
+console.log(Object.getPrototypeOf(employee) == person);
+console.log(Object.getPrototypeOf(person) == Object.prototype);
 
 
 
