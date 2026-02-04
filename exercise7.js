@@ -21,6 +21,6 @@ circle.calculateArea = function(){
 
 
 
-console.log("Rectangle area: ", rectangle.caculateArea());
-console.log("Circle area: ". circle.calculateArea());
+console.log("Rectangle area: ", rectangle.calculateArea());
+console.log("Circle area: ", circle.calculateArea());
 
