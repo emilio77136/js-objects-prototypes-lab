@@ -13,7 +13,7 @@ const student = {
 	},
 
 	getCourseCount(){
-		return this.courses.legth;
+		return this.courses.length;
 	},
 	
 };
