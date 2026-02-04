@@ -11,7 +11,7 @@ const evens = numbers.filter(num => {
 
 
 const sum = numbers.reduce((total, num) => {
-	return total + sum;
+	return total + num;
 }, 0);
 
 
