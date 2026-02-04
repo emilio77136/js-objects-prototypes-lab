@@ -1,4 +1,4 @@
-const vechile = {
+const vehicle = {
 	wheels: 4,
 		
 	describe() {
