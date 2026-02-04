@@ -14,7 +14,6 @@ const sum = numbers.reduce((total, num) => {
 	return total + num;
 }, 0);
 
-
 console.log("Squared: ", squared);
 console.log("Evens: ", evens);
 console.log("Sum: ", sum);
