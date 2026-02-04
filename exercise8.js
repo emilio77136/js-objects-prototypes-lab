@@ -1,6 +1,6 @@
 const library = {
 	name: 'City Library',
-	books: []
+	books: [],
 	addBook(title, author, isbn){
 		const book = {
 			title: title,
@@ -9,7 +9,7 @@ const library = {
 		};
 	this.books.push(book);
 
-	}
+	},
 
 
 	searchByAuthor(authorName){
@@ -23,5 +23,5 @@ const library = {
 library.addBook('JavaScript: The Good Parts', 'Douglas Crockford', '346436');
 library.addBook('Goldilocks', 'Emilio Lopez', '234235');
 
-console.log(library,books);
+console.log(library.books);
 console.log(library.searchByAuthor('Emilio Lopez'));
