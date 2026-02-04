@@ -13,6 +13,6 @@ function updateProperty(obj, propertyName, newValue){
 	obj[propertyName] = newValue;
 }
 
-displayProperty(book, 'title);
+displayProperty(book, 'title');
 updateProperty(book, 'year', 2025);
-displayProerty(book, 'year);
+displayProperty(book, 'year');
